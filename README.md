@@ -1,4 +1,5 @@
 <img width="500" alt="pictures" src="pictures/ter.png">
+
 # What is Terraform?
 Terraform is an IaC tool that lets you build, change, and version infrastructure safely and efficiently. In addition, it has [great documentation](https://www.terraform.io/).
 
