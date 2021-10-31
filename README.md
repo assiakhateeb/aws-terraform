@@ -16,7 +16,7 @@ To install Terraform:
 4. If you don’t have an AWS account, create an AWS [free-tier](https://aws.amazon.com/free/) account.
 # AWS Terraform Project
  This terraform project creates quickly two servers with [NGINX](https://www.nginx.com/) running each, in AWS with the default VPC.
- Furthermore it produces an [Application Load Balancer](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/introduction.html) that forwards the users’ traffic to the server.
+ Furthermore, it produces an [Application Load Balancer](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/introduction.html) that forwards the users’ traffic to the server.
 
 ## Use it
 - clone this repo
