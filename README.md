@@ -34,7 +34,7 @@ To install Terraform:
 * step 0: In [providers.tf](providers.tf) we
 provide a resource to manage the default AWS VPC in the Ireland region.
 * step 1: In [security_group.tf](security_group.tf) we
-Create Security Group (SG) and a Security Group Rules: HTTP, HTTPS, SSH, All networks allowed".
+Create Security Group (SG) and a Security Group Rules: HTTP, HTTPS, SSH, All networks allowed.
 * step 2: In [ec2.tf](ec2.tf) we
 Create two EC2 instances and install nginx in each instance.
 * step 3: In [app_lb.tf](app_lb.tf) we
