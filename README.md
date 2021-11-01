@@ -21,7 +21,7 @@ To install Terraform:
 ## Use it
 - clone this repo
     ```git clone https://github.com/assiakhateeb/aws-terraform.git```
-- Modify `variables.tf` with your own  information
+- Modify `terraform.tfvars ` with your own  information
 ## Code Commit
 1. Initialization (Installation of provider libraries) <br>
 `terraform init`
@@ -34,11 +34,11 @@ To install Terraform:
 * step 0: In [providers.tf](providers.tf) we
 provide a resource to manage the default AWS VPC in the Ireland region.
 * step 1: In [security_group.tf](security_group.tf) we
-Create Security Group (SG) and a Security Group Rules: HTTP, HTTPS, SSH, All networks allowed.
+create Security Group (SG) and a Security Group Rules: HTTP, HTTPS, SSH, All networks allowed.
 * step 2: In [ec2.tf](ec2.tf) we
-Create two EC2 instances and install nginx in each instance.
+create two EC2 instances and install nginx in each instance.
 * step 3: In [app_lb.tf](app_lb.tf) we
-Create a target group and an application load balancer and attach to it a listener.
+create a target group and an application load balancer and attach to it a listener.
 
 ## Providers
 
